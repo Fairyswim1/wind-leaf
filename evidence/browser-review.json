@@ -2,7 +2,7 @@
   "schema": 1,
   "status": "passed",
   "checkedAt": "2026-11-04T23:54:19.931Z",
-  "sourceHash": "d1d8ed0dcdc430b1d2b4cabab8ee2b509cc2b4d425b8349dd9994b2430bec024",
+  "sourceHash": "d8872a8f35e7b12b4f4d66d6263f062278ca3c76e86b25f62579534f703c060f",
   "priorRun": "runs/2026-11-04-wind-leaf/progress.json",
   "screenshots": [
     "evidence/wind-desktop.jpg",
@@ -74,5 +74,6 @@
     "No student usability study or learning-effect claim.",
     "Only stem-and-leaf portion of 9수04-02 assessed.",
     "Vercel game deployment not yet performed."
-  ]
+  ],
+  "metadataRevision": "Student library summary restricted to stem-and-leaf coverage; official full achievement text retained internally. Runtime unchanged."
 }
