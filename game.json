@@ -1,0 +1,48 @@
+{
+  "id": "wind-leaf",
+  "title": "윈드 리프",
+  "subtitle": "바람이 엮는 도감",
+  "grade": 1,
+  "unit": "8-2 줄기와 잎 그림",
+  "category": "자료와 가능성",
+  "version": "1.0.0",
+  "description": "손의 카드 세 장에서 놓을 카드를 골라 줄기마다 잎을 작은 순서로 엮어요. 들어올 카드를 내다보고 빈자리와 보내기 횟수를 아끼며 열두 장의 잎 도감을 완성하는 카드 퍼즐입니다.",
+  "tags": [
+    "줄기와 잎 그림",
+    "자료 읽기",
+    "순서와 손 관리"
+  ],
+  "duration": "20–35분",
+  "assets": [
+    "assets/background.png",
+    "assets/button.png",
+    "assets/card.png",
+    "assets/badge.png",
+    "assets/guide.png",
+    "assets/reward.png"
+  ],
+  "generatedRoles": {
+    "background": "assets/background.png",
+    "controls": "assets/button.png",
+    "interactiveProp": "assets/card.png",
+    "roundNavigation": "assets/badge.png",
+    "character": "assets/guide.png",
+    "reward": "assets/reward.png"
+  },
+  "obstacles": "뒤늦게 들어오는 작은 잎과 한정된 손 세 장. 부적절한 선택은 남은 도감 완성을 막는다.",
+  "campaign": {
+    "rounds": 12,
+    "collectibles": 12,
+    "ending": true
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "spotlight": true,
+    "actualSuccess": true,
+    "skippable": true,
+    "replay": true,
+    "isolated": true
+  },
+  "repository": "https://github.com/Fairyswim1/wind-leaf",
+  "repositoryStatus": "created"
+}

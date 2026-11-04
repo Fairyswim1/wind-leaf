@@ -1,0 +1,1019 @@
+{
+  "title": "윈드 리프",
+  "goal": "손의 카드를 골라 줄기마다 잎을 작은 순서로 채워 도감을 완성하세요.",
+  "actions": [
+    "카드 고르기",
+    "줄기에 놓기",
+    "필요하면 다음 도감으로 보내기"
+  ],
+  "referenceCandidates": [
+    {
+      "name": "Lost Cities",
+      "url": "https://www.thamesandkosmos.co.uk/wp-content/uploads/2020/04/691821_LC_Card_Game.pdf",
+      "reviewedPages": [
+        2,
+        3
+      ],
+      "rules": "손에서 카드 하나를 오름차순 색 열에 놓거나 버린 뒤 새 카드 하나를 받는다.",
+      "selected": true,
+      "adaptation": "색 열을 십의 자리 줄기로, 값은 일의 자리 잎으로 변경. 중복을 허용하고, 1인 공개 덱·세 장 손·제한된 보내기·줄기별 목표 칸을 사용. 원작의 내기·상대·점수 계산 제외."
+    },
+    {
+      "name": "Sushi Go!",
+      "url": "https://www.gamewright.com/product/Sushi-Go",
+      "rules": "카드를 골라 넘기며 음식 세트와 조합으로 점수를 얻는다.",
+      "selected": false,
+      "reason": "여러 조합의 득점 규칙보다 자료를 순서대로 엮는 직접 대응이 적합하다."
+    },
+    {
+      "name": "IQ Puzzler Pro",
+      "url": "https://www.smartgames.com/uk/one-player-games/iq-puzzler-pro-0",
+      "rules": "도전 과제의 고정 조각을 둔 뒤 남은 조각으로 판을 채운다.",
+      "selected": false,
+      "reason": "공간 채우기는 줄기와 잎의 핵심인 순서·빈도 보존과 직접 연결이 약하다."
+    }
+  ],
+  "progression": [
+    {
+      "stages": [
+        1,
+        2
+      ],
+      "decision": "자리값과 작은 잎 우선, 같은 잎은 생략하지 않기"
+    },
+    {
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "decision": "미래의 작은 잎을 기다리기 위해 다른 줄기로 손을 비우기"
+    },
+    {
+      "stages": [
+        7,
+        8,
+        9
+      ],
+      "decision": "보내는 카드와 남기는 카드를 줄기별 필요 개수에 맞춰 선택하기"
+    },
+    {
+      "stages": [
+        10,
+        11,
+        12
+      ],
+      "decision": "0줄기와 중복, 다음 카드 순서, 보내기 제한을 같은 조작으로 결합"
+    }
+  ],
+  "rounds": [
+    {
+      "id": 1,
+      "title": "첫 잎의 자리",
+      "lesson": "십의 자리는 줄기, 일의 자리는 잎이에요.",
+      "deck": [
+        12,
+        15,
+        21,
+        23
+      ],
+      "stems": [
+        1,
+        2
+      ],
+      "quotas": [
+        2,
+        2
+      ],
+      "sends": 0,
+      "solution": [
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "같은 잎 두 장",
+      "lesson": "같은 값도 각각 한 장씩 놓아요.",
+      "deck": [
+        12,
+        12,
+        21,
+        16,
+        25
+      ],
+      "stems": [
+        1,
+        2
+      ],
+      "quotas": [
+        3,
+        2
+      ],
+      "sends": 0,
+      "solution": [
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "기다리는 작은 잎",
+      "lesson": "다른 줄기를 채우면 기다리던 작은 카드가 들어와요.",
+      "deck": [
+        18,
+        21,
+        22,
+        11,
+        14,
+        26
+      ],
+      "stems": [
+        1,
+        2
+      ],
+      "quotas": [
+        3,
+        3
+      ],
+      "sends": 0,
+      "solution": [
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "바람의 틈",
+      "lesson": "큰 잎을 먼저 놓으면 뒤의 작은 잎을 놓을 수 없어요.",
+      "deck": [
+        11,
+        16,
+        27,
+        11,
+        26,
+        22,
+        10
+      ],
+      "stems": [
+        1,
+        2
+      ],
+      "quotas": [
+        3,
+        3
+      ],
+      "sends": 1,
+      "evidence": {
+        "smallestGreedyWins": true,
+        "largestGreedyWins": false,
+        "sendsUsed": 0
+      },
+      "solution": [
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "먼저 보낼 잎",
+      "lesson": "큰 잎을 먼저 놓으면 뒤의 작은 잎을 놓을 수 없어요.",
+      "deck": [
+        25,
+        23,
+        18,
+        11,
+        13,
+        20,
+        15
+      ],
+      "stems": [
+        1,
+        2
+      ],
+      "quotas": [
+        3,
+        3
+      ],
+      "sends": 1,
+      "evidence": {
+        "smallestGreedyWins": false,
+        "largestGreedyWins": false,
+        "sendsUsed": 1
+      },
+      "solution": [
+        {
+          "kind": "send",
+          "card": 2
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "서로 다른 세 줄기",
+      "lesson": "다음 카드를 보고, 빈자리를 만들 줄기를 골라요.",
+      "deck": [
+        14,
+        37,
+        17,
+        22,
+        12,
+        30,
+        23,
+        28,
+        17,
+        37
+      ],
+      "stems": [
+        1,
+        2,
+        3
+      ],
+      "quotas": [
+        3,
+        3,
+        3
+      ],
+      "sends": 1,
+      "evidence": {
+        "smallestGreedyWins": true,
+        "largestGreedyWins": false,
+        "sendsUsed": 1
+      },
+      "solution": [
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 1
+        },
+        {
+          "kind": "send",
+          "card": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "두 번의 기다림",
+      "lesson": "다음 카드를 보고, 빈자리를 만들 줄기를 골라요.",
+      "deck": [
+        25,
+        36,
+        32,
+        32,
+        26,
+        23,
+        14,
+        12,
+        13,
+        14
+      ],
+      "stems": [
+        1,
+        2,
+        3
+      ],
+      "quotas": [
+        3,
+        3,
+        3
+      ],
+      "sends": 2,
+      "evidence": {
+        "smallestGreedyWins": false,
+        "largestGreedyWins": false,
+        "sendsUsed": 1
+      },
+      "solution": [
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "send",
+          "card": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "아껴 둔 빈자리",
+      "lesson": "다음 카드를 보고, 빈자리를 만들 줄기를 골라요.",
+      "deck": [
+        12,
+        28,
+        18,
+        22,
+        33,
+        25,
+        30,
+        17,
+        16,
+        33
+      ],
+      "stems": [
+        1,
+        2,
+        3
+      ],
+      "quotas": [
+        3,
+        3,
+        3
+      ],
+      "sends": 2,
+      "evidence": {
+        "smallestGreedyWins": false,
+        "largestGreedyWins": false,
+        "sendsUsed": 1
+      },
+      "solution": [
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "send",
+          "card": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "겹쳐진 잎맥",
+      "lesson": "다음 카드를 보고, 빈자리를 만들 줄기를 골라요.",
+      "deck": [
+        32,
+        24,
+        16,
+        21,
+        22,
+        13,
+        33,
+        36,
+        12,
+        12
+      ],
+      "stems": [
+        1,
+        2,
+        3
+      ],
+      "quotas": [
+        3,
+        3,
+        3
+      ],
+      "sends": 2,
+      "evidence": {
+        "smallestGreedyWins": false,
+        "largestGreedyWins": false,
+        "sendsUsed": 1
+      },
+      "solution": [
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 2
+        },
+        {
+          "kind": "send",
+          "card": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "길을 여는 선택",
+      "lesson": "보내기 횟수를 아껴 모든 줄기의 자리를 채워요.",
+      "deck": [
+        13,
+        12,
+        3,
+        26,
+        26,
+        35,
+        34,
+        35,
+        17,
+        7,
+        2,
+        4,
+        26
+      ],
+      "stems": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "quotas": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sends": 2,
+      "evidence": {
+        "smallestGreedyWins": false,
+        "largestGreedyWins": false,
+        "sendsUsed": 1
+      },
+      "solution": [
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 3
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 3
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 3
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "send",
+          "card": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "마지막 우편",
+      "lesson": "보내기 횟수를 아껴 모든 줄기의 자리를 채워요.",
+      "deck": [
+        8,
+        5,
+        4,
+        32,
+        32,
+        18,
+        15,
+        36,
+        27,
+        5,
+        21,
+        15,
+        27
+      ],
+      "stems": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "quotas": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sends": 2,
+      "evidence": {
+        "smallestGreedyWins": false,
+        "largestGreedyWins": false,
+        "sendsUsed": 1
+      },
+      "solution": [
+        {
+          "kind": "send",
+          "card": 0
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 3
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 3
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 3
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "바람의 도감",
+      "lesson": "보내기 횟수를 아껴 모든 줄기의 자리를 채워요.",
+      "deck": [
+        23,
+        1,
+        24,
+        31,
+        25,
+        7,
+        6,
+        36,
+        6,
+        14,
+        30,
+        17,
+        18
+      ],
+      "stems": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "quotas": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "sends": 2,
+      "evidence": {
+        "smallestGreedyWins": false,
+        "largestGreedyWins": false,
+        "sendsUsed": 1
+      },
+      "solution": [
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 2
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 2
+        },
+        {
+          "kind": "send",
+          "card": 1
+        },
+        {
+          "kind": "place",
+          "card": 1,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 0
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 2,
+          "row": 3
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 3
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 3
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        },
+        {
+          "kind": "place",
+          "card": 0,
+          "row": 1
+        }
+      ]
+    }
+  ],
+  "counterexamples": {
+    "earlyStrategy": "손의 가장 작은 카드부터 놓기",
+    "earlySuccess": [
+      1,
+      2
+    ],
+    "lateFailure": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "test": "tests/game.test.mjs",
+    "waitingTradeoff": "3라운드에서 18을 먼저 놓으면 실패, 다른 줄기의 21과 22를 놓아 11과 14를 먼저 받으면 성공.",
+    "resourceTradeoff": "5라운드는 보내기 0회로는 해가 없고 1회는 해가 있다. 무작정 다른 카드를 보내면 필요한 자료 개수가 부족해진다.",
+    "timeModel": "실시간 압박 없음. 카드 처리 1회가 1차례이며 한 차례 소비로 새 카드를 얻는 손 공간·순서의 교환."
+  },
+  "learningValidity": {
+    "allDataRequiredInAssessment": true,
+    "gameSelectionIsNotFullDatasetAnalysis": true,
+    "assessmentTasks": 8,
+    "claims": "학생 대상 재미나 학습 효과는 아직 검증하지 않았다."
+  },
+  "generatedAssets": 6,
+  "limits": {
+    "generationBudget": 8
+  },
+  "tutorial": "First-run spotlight with 4 actual placements to win; skip/replay/keyboard; isolated memory storage",
+  "progress": "local storage with undo histories and 12 leaf lockets; complete-album ending"
+}

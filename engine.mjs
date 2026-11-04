@@ -1,0 +1,9 @@
+export const stem=n=>Math.floor(n/10),leaf=n=>n%10;
+export function start(l){return{hand:l.deck.slice(0,3),next:Math.min(3,l.deck.length),rows:l.stems.map(()=>[]),sent:[],turns:0}}
+export function won(l,s){return l.quotas.every((n,i)=>s.rows[i].length===n)}
+export function legal(l,s,a){if(won(l,s)||!Number.isInteger(a.card)||a.card<0||a.card>=s.hand.length)return false;if(a.kind==='send')return s.sent.length<l.sends;if(a.kind!=='place')return false;const row=s.rows[a.row],n=s.hand[a.card];return !!row&&stem(n)===l.stems[a.row]&&row.length<l.quotas[a.row]&&(!row.length||leaf(n)>=row.at(-1))}
+export function actions(l,s){const out=[];s.hand.forEach((n,card)=>{const a={kind:'place',card,row:l.stems.indexOf(stem(n))};if(legal(l,s,a))out.push(a);if(legal(l,s,{kind:'send',card}))out.push({kind:'send',card})});return out}
+export function move(l,s,a){if(!legal(l,s,a))return null;const n=structuredClone(s),value=n.hand.splice(a.card,1)[0];if(a.kind==='send')n.sent.push(value);else n.rows[a.row].push(leaf(value));if(n.next<l.deck.length)n.hand.push(l.deck[n.next++]);n.turns++;return n}
+export function solve(l,s=start(l),budget=150000){let visits=0;const dead=new Set();function go(s){if(won(l,s))return[];if(++visits>budget)return null;const k=JSON.stringify([s.hand,s.next,s.rows,s.sent.length]);if(dead.has(k))return null;for(const a of actions(l,s)){const r=go(move(l,s,a));if(r)return[a,...r]}dead.add(k);return null}return go(s)}
+export function greedy(l,mode='smallest'){let s=start(l),path=[];while(!won(l,s)){let aa=actions(l,s),p=aa.filter(a=>a.kind==='place').sort((a,b)=>(s.hand[a.card]-s.hand[b.card])*(mode==='largest'?-1:1));let a=p[0]||aa.find(a=>a.kind==='send');if(!a)return{won:false,path,state:s};path.push(a);s=move(l,s,a)}return{won:true,path,state:s}}
+export function deadEnd(l,s){return !won(l,s)&&solve(l,s)===null}

@@ -1,0 +1,77 @@
+{
+  "game": "wind-leaf",
+  "version": "1.0.0",
+  "source": {
+    "title": "교육부 고시 제2022-33호 [별책8] 수학과 교육과정",
+    "sha256": "a11706f7c7a8e0aa650a4d08549895ff10f7920b1bee7b2c2f4ce79ad3795ac8",
+    "assessmentPages": {
+      "pdf": "53–55",
+      "printed": "47–49"
+    }
+  },
+  "standards": [
+    {
+      "code": "9수04-02",
+      "text": "자료를 줄기와 잎 그림, 도수분포표, 히스토그램, 도수분포다각형으로 나타내고 해석할 수 있다.",
+      "page": {
+        "pdf": 46,
+        "printed": 40
+      },
+      "commentaryReview": {
+        "pdf": [
+          47,
+          48
+        ],
+        "printed": [
+          41,
+          42
+        ],
+        "note": "해당 코드에 별도 해설 없음. 자료 표현·해석, 적절한 공학 도구 활용 및 통계 탐구 유의사항 대조."
+      },
+      "skills": {
+        "encode": {
+          "tasks": [
+            "u1",
+            "u2"
+          ],
+          "evidence": "모든 관측값을 십/일의 자리로 분리, 정렬, 중복 보존"
+        },
+        "decode": {
+          "tasks": [
+            "u3",
+            "u4"
+          ],
+          "evidence": "줄기와 잎으로 원래 값 읽기"
+        },
+        "count": {
+          "tasks": [
+            "u5",
+            "u6"
+          ],
+          "evidence": "전체 개수와 포함 경계 개수, 중복 세기"
+        },
+        "interpret": {
+          "tasks": [
+            "u7",
+            "u8"
+          ],
+          "evidence": "밀집 구간 비교와 빠진 중복값 비판"
+        }
+      },
+      "rubric": "기준별 새로운 과제 2개 첫 응답·무도움 정답과 학생 설명을 구분하여 기록. 도움/재시도는 독립 수행으로 세지 않음. 설명의 타당성은 교사 검토에서 판단하며 자동 이수 판정 없음.",
+      "limit": "9수04-02 중 줄기와 잎 그림 표현·해석만 확인. 도수분포표·히스토그램·도수분포다각형 및 전체 기준 이수는 미확인."
+    }
+  ],
+  "records": [
+    "first response",
+    "incorrect response",
+    "retry",
+    "help",
+    "elapsedMs",
+    "student explanation",
+    "review",
+    "readable HTML export"
+  ],
+  "storage": "local browser notebooks; no account or cloud sync",
+  "studentFacing": "No curriculum hash or teacher-methodology boilerplate; no raw JSON UI."
+}

@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "checkedAt": "2026-11-04T23:54:19.931Z",
+  "sourceHash": "d1d8ed0dcdc430b1d2b4cabab8ee2b509cc2b4d425b8349dd9994b2430bec024",
+  "priorRun": "runs/2026-11-04-wind-leaf/progress.json",
+  "screenshots": [
+    "evidence/wind-desktop.jpg",
+    "evidence/wind-ending.jpg",
+    "evidence/wind-mobile.jpg",
+    "evidence/wind-mobile-tutorial.jpg",
+    "evidence/wind-assessment-mobile.jpg",
+    "evidence/wind-assessment-390-final.jpg"
+  ],
+  "browser": "Chrome extension: actual UI actions. IAB had screenshot failure so final visual review used Chrome.",
+  "gameplay": {
+    "rounds": 12,
+    "allPlayedToVictory": true,
+    "solutionsFollowedViaClicks": true,
+    "deadEndAndUndo": true,
+    "reset": true,
+    "persistence": true,
+    "collectionAndEnding": true,
+    "earlyGreedyLateFailure": "Automated counterexamples in tests/game.test.mjs"
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "actualSuccess": true,
+    "finalSteps": 10,
+    "skip": true,
+    "replay": true,
+    "keyboard": true,
+    "mobile": true,
+    "progressPreserved": true,
+    "assessmentIsolated": true
+  },
+  "assessment": {
+    "codes": [
+      "9수04-02"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "mobile": true,
+    "export": true,
+    "jsonUiRemoved": true,
+    "allTasksPlayed": 8,
+    "profiles": true,
+    "explanation": true,
+    "review": true,
+    "download": "Verified actual browser-triggered HTML file in Downloads; copied test sample to evidence/export-sample.html. Does not use timed-out download event tool."
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "documentClientWidth": 374,
+    "scrollWidth": 374,
+    "fonts": [
+      "Jua",
+      "Do Hyeon",
+      "Gowun Dodum"
+    ],
+    "visual": "Titles, card values, control text, plot labels, prompts and selects readable without horizontal overflow."
+  },
+  "audio": {
+    "signalVerified": true,
+    "message": "효과음 신호가 정상이에요",
+    "perceivedListening": "not independently measured"
+  },
+  "consoleErrors": [],
+  "limits": [
+    "No student usability study or learning-effect claim.",
+    "Only stem-and-leaf portion of 9수04-02 assessed.",
+    "Vercel game deployment not yet performed."
+  ]
+}

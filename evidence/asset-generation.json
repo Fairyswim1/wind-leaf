@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "createdAt": "2026-11-04T05:17:10.234Z",
+  "assets": [
+    {
+      "name": "background",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-7435c5e6-4034-4f25-8223-1db8be793203.png",
+      "prompt": "Wide 16:9 premium storybook game background, floating autumn botanical conservatory above sea of clouds, wind chimes, terracotta and sage leaves, soft ivory sunlight, richly hand-painted detailed environment at edges with calm darker teal center for readable game UI, no words no letters no numbers, polished whimsical middle-school puzzle game",
+      "role": "background"
+    },
+    {
+      "name": "button",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-6c5ca42c-f1ea-4eae-b6c4-23d58bf7dd8d.png",
+      "prompt": "Single horizontal wide game UI button, carved warm walnut with elegant brass leaf tips, broad clean pale ivory parchment inset for overlaid dark text, minimal foliage around ends, symmetrical front view, fills canvas with small transparent margin, transparent background, no text numbers icons",
+      "role": "button"
+    },
+    {
+      "name": "card",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-c6a7a798-459c-4cc4-bd26-0aeed80dc99c.png",
+      "prompt": "One portrait rectangular collectible botanical game card frame, ivory paper center very broad empty writing space, carved walnut and fine brass border, small sage leaf corner details, warm polished storybook hand painted quality, transparent surrounding background, no text or symbols, front-on",
+      "role": "card"
+    },
+    {
+      "name": "badge",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-829b5cb5-6e82-4a5b-a6f6-84a638ce90b4.png",
+      "prompt": "Single round brass and amber glass chapter button medallion, autumn leaf tiny motif around rim, broad empty dark green center for a number overlay, premium hand-painted fantasy game UI, centered fills image, transparent background, no text",
+      "role": "badge"
+    },
+    {
+      "name": "guide",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-bb7466a8-debf-4d7f-8aca-4a137c786c05.png",
+      "prompt": "Cute original small red squirrel botanist wearing sage scarf and round brass spectacles, carrying a tiny notebook and leaf, friendly clever expression, full body isolated, polished storybook fantasy game character matching walnut and autumn sage UI, transparent background, no text",
+      "role": "guide"
+    },
+    {
+      "name": "reward",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-1008dad7-e0cf-4591-96d6-212ad81733f0.png",
+      "prompt": "Single collectible magical pressed maple leaf in small circular glass locket, fine brass frame amber teal glows, elegant original storybook fantasy puzzle reward icon, full object centered isolated transparent background, no words letters or numerals",
+      "role": "reward"
+    }
+  ]
+}

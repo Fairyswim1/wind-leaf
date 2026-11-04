@@ -1,0 +1,150 @@
+TAP version 13
+# Subtest: round 1 solution and invariants
+ok 1 - round 1 solution and invariants
+  ---
+  duration_ms: 4.447
+  ...
+# Subtest: round 2 solution and invariants
+ok 2 - round 2 solution and invariants
+  ---
+  duration_ms: 1.1504
+  ...
+# Subtest: round 3 solution and invariants
+ok 3 - round 3 solution and invariants
+  ---
+  duration_ms: 0.5847
+  ...
+# Subtest: round 4 solution and invariants
+ok 4 - round 4 solution and invariants
+  ---
+  duration_ms: 1.3581
+  ...
+# Subtest: round 5 solution and invariants
+ok 5 - round 5 solution and invariants
+  ---
+  duration_ms: 3.1452
+  ...
+# Subtest: round 6 solution and invariants
+ok 6 - round 6 solution and invariants
+  ---
+  duration_ms: 2.4993
+  ...
+# Subtest: round 7 solution and invariants
+ok 7 - round 7 solution and invariants
+  ---
+  duration_ms: 28.688
+  ...
+# Subtest: round 8 solution and invariants
+ok 8 - round 8 solution and invariants
+  ---
+  duration_ms: 13.5472
+  ...
+# Subtest: round 9 solution and invariants
+ok 9 - round 9 solution and invariants
+  ---
+  duration_ms: 10.8084
+  ...
+# Subtest: round 10 solution and invariants
+ok 10 - round 10 solution and invariants
+  ---
+  duration_ms: 35.2119
+  ...
+# Subtest: round 11 solution and invariants
+ok 11 - round 11 solution and invariants
+  ---
+  duration_ms: 12.2209
+  ...
+# Subtest: round 12 solution and invariants
+ok 12 - round 12 solution and invariants
+  ---
+  duration_ms: 21.3726
+  ...
+# Subtest: tens and units include zero and duplicates
+ok 13 - tens and units include zero and duplicates
+  ---
+  duration_ms: 0.2128
+  ...
+# Subtest: wrong stem and descending rejected without mutation
+ok 14 - wrong stem and descending rejected without mutation
+  ---
+  duration_ms: 0.2007
+  ...
+# Subtest: same simple strategy succeeds early and fails late
+ok 15 - same simple strategy succeeds early and fails late
+  ---
+  duration_ms: 0.8685
+  ...
+# Subtest: largest first is a counterexample from stage 3
+ok 16 - largest first is a counterexample from stage 3
+  ---
+  duration_ms: 0.6031
+  ...
+# Subtest: waiting by another row matters in stage 3
+ok 17 - waiting by another row matters in stage 3
+  ---
+  duration_ms: 0.2222
+  ...
+# Subtest: discard budget and using a turn have different consequences
+ok 18 - discard budget and using a turn have different consequences
+  ---
+  duration_ms: 8.6476
+  ...
+# Subtest: tutorial storage cannot overwrite progress and notes
+ok 19 - tutorial storage cannot overwrite progress and notes
+  ---
+  duration_ms: 2.8834
+  ...
+# Subtest: new task u1
+ok 20 - new task u1
+  ---
+  duration_ms: 0.3345
+  ...
+# Subtest: new task u2
+ok 21 - new task u2
+  ---
+  duration_ms: 0.0841
+  ...
+# Subtest: new task u3
+ok 22 - new task u3
+  ---
+  duration_ms: 0.0895
+  ...
+# Subtest: new task u4
+ok 23 - new task u4
+  ---
+  duration_ms: 0.0649
+  ...
+# Subtest: new task u5
+ok 24 - new task u5
+  ---
+  duration_ms: 0.0646
+  ...
+# Subtest: new task u6
+ok 25 - new task u6
+  ---
+  duration_ms: 0.0562
+  ...
+# Subtest: new task u7
+ok 26 - new task u7
+  ---
+  duration_ms: 0.0591
+  ...
+# Subtest: new task u8
+ok 27 - new task u8
+  ---
+  duration_ms: 0.054
+  ...
+# Subtest: assessment preserves ordering, duplicates and incorrect attempts
+ok 28 - assessment preserves ordering, duplicates and incorrect attempts
+  ---
+  duration_ms: 0.3095
+  ...
+1..28
+# tests 28
+# suites 0
+# pass 28
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 259.6825

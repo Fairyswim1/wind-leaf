@@ -1,0 +1,36 @@
+{
+  "tool": "built-in image_gen",
+  "createdAt": "2026-11-04T05:17:10.234Z",
+  "assets": [
+    {
+      "file": "background.png",
+      "prompt": "Wide 16:9 premium storybook game background, floating autumn botanical conservatory above sea of clouds, wind chimes, terracotta and sage leaves, soft ivory sunlight, richly hand-painted detailed environment at edges with calm darker teal center for readable game UI, no words no letters no numbers, polished whimsical middle-school puzzle game",
+      "role": "background"
+    },
+    {
+      "file": "button.png",
+      "prompt": "Single horizontal wide game UI button, carved warm walnut with elegant brass leaf tips, broad clean pale ivory parchment inset for overlaid dark text, minimal foliage around ends, symmetrical front view, fills canvas with small transparent margin, transparent background, no text numbers icons",
+      "role": "button"
+    },
+    {
+      "file": "card.png",
+      "prompt": "One portrait rectangular collectible botanical game card frame, ivory paper center very broad empty writing space, carved walnut and fine brass border, small sage leaf corner details, warm polished storybook hand painted quality, transparent surrounding background, no text or symbols, front-on",
+      "role": "card"
+    },
+    {
+      "file": "badge.png",
+      "prompt": "Single round brass and amber glass chapter button medallion, autumn leaf tiny motif around rim, broad empty dark green center for a number overlay, premium hand-painted fantasy game UI, centered fills image, transparent background, no text",
+      "role": "badge"
+    },
+    {
+      "file": "guide.png",
+      "prompt": "Cute original small red squirrel botanist wearing sage scarf and round brass spectacles, carrying a tiny notebook and leaf, friendly clever expression, full body isolated, polished storybook fantasy game character matching walnut and autumn sage UI, transparent background, no text",
+      "role": "guide"
+    },
+    {
+      "file": "reward.png",
+      "prompt": "Single collectible magical pressed maple leaf in small circular glass locket, fine brass frame amber teal glows, elegant original storybook fantasy puzzle reward icon, full object centered isolated transparent background, no words letters or numerals",
+      "role": "reward"
+    }
+  ]
+}
