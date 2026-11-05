@@ -1,0 +1,42 @@
+{
+  "title": "잎사귀 사이로",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "잎사귀 사이로",
+    "root": 65,
+    "bpm": 76,
+    "color": "wood",
+    "minor": false,
+    "motif": [
+      7,
+      9,
+      12,
+      7,
+      4,
+      2,
+      4,
+      0
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 76,
+      "seconds": 50.52630385487528,
+      "peak": 0.18194856718645405,
+      "rms": 0.044529522184914794,
+      "seamDelta": 0.004005434878283582,
+      "sha256": "b6d81a4a8d94a6d3334c8224ddc72a2affadeafc8831278f86b4325a60a1408c"
+    },
+    {
+      "mode": "energy",
+      "bpm": 100,
+      "seconds": 38.4,
+      "peak": 0.2464002706223646,
+      "rms": 0.06243919121254572,
+      "seamDelta": 0.002170183766173922,
+      "sha256": "58aba1fd8e858bd8289df30de41e19a5ad2de0519ccebff73d09cd89bf368456"
+    }
+  ]
+}

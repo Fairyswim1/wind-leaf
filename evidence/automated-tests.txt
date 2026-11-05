@@ -2,149 +2,209 @@ TAP version 13
 # Subtest: round 1 solution and invariants
 ok 1 - round 1 solution and invariants
   ---
-  duration_ms: 3.0754
+  duration_ms: 3.0833
   ...
 # Subtest: round 2 solution and invariants
 ok 2 - round 2 solution and invariants
   ---
-  duration_ms: 1.2727
+  duration_ms: 1.5567
   ...
 # Subtest: round 3 solution and invariants
 ok 3 - round 3 solution and invariants
   ---
-  duration_ms: 0.6149
+  duration_ms: 0.6772
   ...
 # Subtest: round 4 solution and invariants
 ok 4 - round 4 solution and invariants
   ---
-  duration_ms: 1.3463
+  duration_ms: 1.6072
   ...
 # Subtest: round 5 solution and invariants
 ok 5 - round 5 solution and invariants
   ---
-  duration_ms: 3.2892
+  duration_ms: 3.3683
   ...
 # Subtest: round 6 solution and invariants
 ok 6 - round 6 solution and invariants
   ---
-  duration_ms: 2.7519
+  duration_ms: 2.6629
   ...
 # Subtest: round 7 solution and invariants
 ok 7 - round 7 solution and invariants
   ---
-  duration_ms: 29.3705
+  duration_ms: 32.6896
   ...
 # Subtest: round 8 solution and invariants
 ok 8 - round 8 solution and invariants
   ---
-  duration_ms: 13.6357
+  duration_ms: 14.4018
   ...
 # Subtest: round 9 solution and invariants
 ok 9 - round 9 solution and invariants
   ---
-  duration_ms: 11.1427
+  duration_ms: 12.3954
   ...
 # Subtest: round 10 solution and invariants
 ok 10 - round 10 solution and invariants
   ---
-  duration_ms: 36.0055
+  duration_ms: 42.5701
   ...
 # Subtest: round 11 solution and invariants
 ok 11 - round 11 solution and invariants
   ---
-  duration_ms: 13.4393
+  duration_ms: 14.363
   ...
 # Subtest: round 12 solution and invariants
 ok 12 - round 12 solution and invariants
   ---
-  duration_ms: 22.0024
+  duration_ms: 21.9332
   ...
 # Subtest: tens and units include zero and duplicates
 ok 13 - tens and units include zero and duplicates
   ---
-  duration_ms: 0.2302
+  duration_ms: 0.231
   ...
 # Subtest: wrong stem and descending rejected without mutation
 ok 14 - wrong stem and descending rejected without mutation
   ---
-  duration_ms: 0.2229
+  duration_ms: 0.2064
   ...
 # Subtest: same simple strategy succeeds early and fails late
 ok 15 - same simple strategy succeeds early and fails late
   ---
-  duration_ms: 1.0669
+  duration_ms: 0.8839
   ...
 # Subtest: largest first is a counterexample from stage 3
 ok 16 - largest first is a counterexample from stage 3
   ---
-  duration_ms: 0.5844
+  duration_ms: 0.5971
   ...
 # Subtest: waiting by another row matters in stage 3
 ok 17 - waiting by another row matters in stage 3
   ---
-  duration_ms: 0.2318
+  duration_ms: 0.2313
   ...
 # Subtest: discard budget and using a turn have different consequences
 ok 18 - discard budget and using a turn have different consequences
   ---
-  duration_ms: 8.3525
+  duration_ms: 8.8271
   ...
 # Subtest: tutorial storage cannot overwrite progress and notes
 ok 19 - tutorial storage cannot overwrite progress and notes
   ---
-  duration_ms: 2.7093
+  duration_ms: 2.7158
   ...
 # Subtest: new task u1
 ok 20 - new task u1
   ---
-  duration_ms: 0.3681
+  duration_ms: 0.3339
   ...
 # Subtest: new task u2
 ok 21 - new task u2
   ---
-  duration_ms: 0.0848
+  duration_ms: 0.082
   ...
 # Subtest: new task u3
 ok 22 - new task u3
   ---
-  duration_ms: 0.0935
+  duration_ms: 0.0912
   ...
 # Subtest: new task u4
 ok 23 - new task u4
   ---
-  duration_ms: 0.0576
+  duration_ms: 0.0552
   ...
 # Subtest: new task u5
 ok 24 - new task u5
   ---
-  duration_ms: 0.0646
+  duration_ms: 0.0699
   ...
 # Subtest: new task u6
 ok 25 - new task u6
   ---
-  duration_ms: 0.052
+  duration_ms: 0.0619
   ...
 # Subtest: new task u7
 ok 26 - new task u7
   ---
-  duration_ms: 0.0554
+  duration_ms: 0.0556
   ...
 # Subtest: new task u8
 ok 27 - new task u8
   ---
-  duration_ms: 0.0525
+  duration_ms: 0.0512
   ...
 # Subtest: assessment preserves ordering, duplicates and incorrect attempts
 ok 28 - assessment preserves ordering, duplicates and incorrect attempts
   ---
-  duration_ms: 0.315
+  duration_ms: 0.2929
   ...
-1..28
-# tests 28
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 29 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 1.7453
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 30 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 2.2564
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 31 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.2867
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 32 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.24
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 33 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.2567
+  ...
+# Subtest: pause cancels a pending play state update
+ok 34 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.2239
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 35 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.2456
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 36 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 2.4227
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 37 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 79.6032
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 38 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.7597
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 39 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.4315
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 40 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.5942
+  ...
+1..40
+# tests 40
 # suites 0
-# pass 28
+# pass 40
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 274.5889
+# duration_ms 285.2284
