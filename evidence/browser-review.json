@@ -2,7 +2,7 @@
   "schema": 1,
   "status": "passed",
   "checkedAt": "2026-11-04T23:54:19.931Z",
-  "sourceHash": "9762cb3269d62b876d135e1f6def60c30eb3cda0d295aa0784a77c4c1ced8fb2",
+  "sourceHash": "d910f6cc94960631e274164bd5f02b254feb03e17b4aa509e7ef88f21023b21c",
   "priorRun": "runs/2026-11-04-wind-leaf/progress.json",
   "screenshots": [
     "evidence/wind-desktop.jpg",
@@ -10,7 +10,8 @@
     "evidence/wind-mobile.jpg",
     "evidence/wind-mobile-tutorial.jpg",
     "evidence/wind-assessment-mobile.jpg",
-    "evidence/wind-assessment-390-final.jpg"
+    "evidence/wind-assessment-390-final.jpg",
+    "evidence/first-visit-mobile.png"
   ],
   "browser": "Chrome extension: actual UI actions. IAB had screenshot failure so final visual review used Chrome.",
   "gameplay": {
@@ -96,5 +97,18 @@
     "musicMenuInBounds": true,
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:45:04.881Z",
+    "id": "wind-leaf",
+    "firstVisitOff": true,
+    "startedStep": "작은 순서로 잎을 채워요",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "keyboardEscape": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "9762cb3269d62b876d135e1f6def60c30eb3cda0d295aa0784a77c4c1ced8fb2",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }
